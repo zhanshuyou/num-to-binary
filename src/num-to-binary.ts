@@ -27,5 +27,3 @@ export function numToBinary(num: number): string {
 
   return [integerBinary || '0', decimalsBinary].filter(item => !!item).join('.');
 }
-
-console.info(numToBinary(12.0));
